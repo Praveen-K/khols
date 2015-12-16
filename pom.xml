@@ -15,7 +15,7 @@
     <repository>
       <id>Nexus</id>
       <name>Central Repository</name>
-      <url>http://localhost:8081/nexus-2.6.4-02/content/repositories/releases/ </url>
+      <url>http://localhost:9001/nexus/content/repositories/releases/ </url>
       <layout>default</layout>
       <snapshots>
         <enabled>false</enabled>
@@ -26,7 +26,7 @@
     <pluginRepository>
       <id>Nexus</id>
       <name>PluginRepository</name>
-      <url>http://localhost:8081/nexus-2.6.4-02/content/repositories/central/</url>
+      <url>http://localhost:9001/nexus/content/repositories/central/</url>
       <layout>default</layout>
       <snapshots>
         <enabled>true</enabled>
@@ -39,7 +39,7 @@
   <distributionManagement>
     <snapshotRepository>
     <id>Nexus</id>
-    <url>http://localhost:8081/nexus-2.6.4-02/content/repositories/snapshots/</url>
+    <url>http://localhost:9001/nexus/content/repositories/snapshots/</url>
    </snapshotRepository>
   </distributionManagement>
 <build>
